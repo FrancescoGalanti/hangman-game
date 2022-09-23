@@ -1,0 +1,29 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .container{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     width: 1170px;
+     padding: 20px 10px;
+
+     button{
+          flex-basis: calc(100% / 10 - 2px);
+          margin: 1px 1px;
+          padding: 1px;
+     }
+ }
+
+ .names{
+
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration-line: underline;
+ }
+
+ 
